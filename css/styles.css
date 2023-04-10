@@ -27,11 +27,18 @@ h3{
 
 a{
     color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #EAF6F6;
 }
 
 hr{
-    border-top: .5em dotted #AA96DA;
-    width: 10%;
+    border: .5em dotted #AA96DA;
+    border-bottom: none;
+    width: 4%;
 }
 
 /******************************************************** CLASS SELECTORS **************************************************************/
@@ -123,7 +130,7 @@ hr{
   -webkit-border-radius: 8;
   -moz-border-radius: 8;
   border-radius: 8px;
-  font-family: Arial;
+  font-family: 'Montserrat', sans-serif;
   color: #ffffff;
   font-size: 20px;
   padding: 10px 20px 10px 20px;
@@ -138,4 +145,15 @@ hr{
   background-image: -o-linear-gradient(top, #30e3cb, #3498db);
   background-image: linear-gradient(to bottom, #30e3cb, #3498db);
   text-decoration: none;
+}
+
+.footer-trademark{
+    color: white;
+    font-size: 0.75rem;
+    padding: 1em 0;
+}
+
+.footer-link{
+    font-family: 'Montserrat', sans-serif;
+    padding: 1em 0;
 }
